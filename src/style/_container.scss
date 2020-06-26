@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.form-body {
+  border: 1px solid $border-color;
+  border-radius: $border-radius-base;
+  padding: 40px;
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+    .slogan {
+      display: flex;
+      justify-content: center;
+      color: $heading-color;
+      font-size: 1.5 * $font-size-base;
+      font-weight: bold;
+      padding: 0 0 30px 0;
+    }
+
+    .form-element {
+      padding: 10px 0;
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      > input {
+        background-color: $body-bg;
+        width: 100%;
+        border-style: none;
+        border-bottom: 1px solid $border-color;
+      }
+    }
+
+    .forget-password {
+      color: $primary-color;
+      text-decoration: none;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+
+      > button {
+        width: 100%;
+      }
+    }
+  }
+}

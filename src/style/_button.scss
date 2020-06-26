@@ -1,0 +1,7 @@
+.log-in {
+  @include button-variant($primary-color, $primary-color, $body-bg);
+}
+
+.sign-up {
+  @include button-variant($heading-color, $primary-color, $primary-color);
+}

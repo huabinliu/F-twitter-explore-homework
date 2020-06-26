@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  border-bottom: 1px solid $border-color;
+  height: 10vh;
+
+  nav {
+    > ul {
+      display: flex;
+      > li {
+        margin-bottom: 8px;
+        &:first-child {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}

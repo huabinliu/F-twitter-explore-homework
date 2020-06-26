@@ -1,4 +1,7 @@
-@mixin heading($font-size) {
-  margin-top: 0;
-  font-size: $font-size;
+@mixin button-variant($color, $border-color, $bg-color) {
+  color: $color;
+  border: 1px solid $border-color;
+  background-color: $bg-color;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: 24px;
 }
